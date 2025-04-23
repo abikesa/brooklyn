@@ -402,97 +402,61 @@ document.write(`
                   
   <section class="tex2jax_ignore mathjax_ignore" id="id1">
 <h1><a class="headerlink" href="#id1" title="Permalink to this heading">#</a></h1>
-  <style>
-    body {
-      font-family: Georgia, serif;
-      font-size: 18px;
-      line-height: 1.65;
-      color: #121212;
-      background-color: #ffffff;
-      max-width: 720px;
-      margin: 3rem auto;
-      padding: 0 1rem;
-    }
+<style>
+.jp-InputPrompt, .jp-OutputPrompt, .jp-Cell-inputWrapper {
+  display: none;
+}
+.economist-article {
+  font-family: Georgia, serif !important;
+  font-size: 18px;
+  line-height: 1.65;
+  color: #121212;
+  background-color: #fff !important;
+  max-width: 720px;
+  margin: 3rem auto;
+  padding: 0 1rem;
+}
 
-   .headline-wrap {
-     max-width: 560px;
-     margin: 0; /* Remove auto-centering */
-     padding-left: 0; /* Optional: ensure no indent */
-   }
-
-
-    h1 {
-      font-size: 2.5rem;
-      font-weight: normal;
-      margin: 0.5rem 0;
-      line-height: 1.2; /* or try 1.1, 1.15, etc. */
-    }
-
-    h2 {
-      font-size: 1.1rem;
-      font-weight: normal;
-      color: #333;
-      margin: 0.25rem 0 2rem 0;
-      line-height: 1.2; /* or try 1.1, 1.15, etc. */
-    }
-    
-    .byline {
-      font-weight: normal;
-      margin: 1rem 0;
-    }
-
-    p {
-      margin: 1.2rem 0;
-    }
-
-    .lead-dropcap::first-letter {
-      float: left;
-      font-size: 3rem;
-      line-height: 1.1;
-      padding-right: 0.1em;
-      font-weight: normal;
-    }
-
-    figure {
-      margin: 2rem 0;
-    }
-
-    figcaption {
-      font-size: 0.85rem;
-      color: #666;
-      text-transform: uppercase;
-      margin-top: 0.5rem;
-    }
-
-    footer {
-      color: #d6241d;
-      font-size: 1.5rem;
-      font-weight: bold;
-      text-align: right;
-      margin-top: 3rem;
-    }
-    .section-prefix {
-  color: #d6241d;
+.economist-article h1 {
+  font-size: 2.5rem;
   font-weight: normal;
-  font-size: 0.99rem;
-  text-transform: capitalize;
+  margin: 0.5rem 0;
+  line-height: 1.2;
 }
 
-.section-separator {
-  color: #121212;
-  font-size: 0.99rem;
+.economist-article h2 {
+  font-size: 1.1rem;
+  font-weight: normal;
+  color: #333;
+  margin: 0.25rem 0 2rem 0;
+  line-height: 1.2;
 }
 
-.section-title {
-  color: #121212;
-  font-size: 0.99rem;
-  text-transform: capitalize;
-}
-.section-label {
-  margin-bottom: 1rem;
+.economist-article p {
+  margin: 1.2rem 0;
 }
 
-  </style>
+.economist-article .byline {
+  font-weight: normal;
+  margin: 1rem 0;
+}
+
+.economist-article .lead-dropcap::first-letter {
+  float: left;
+  font-size: 3rem;
+  line-height: 1.1;
+  padding-right: 0.1em;
+  font-weight: normal;
+}
+
+  .economist-article img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1rem 0;
+}
+
+
 <div class="section-label">
   <span class="section-prefix">Business</span> 
   <span class="section-separator"> | </span> 
@@ -503,7 +467,7 @@ document.write(`
   <h2>Venture capital and the government are now brothers in arms</h2>
 </div>
 <figure style="width: 400px;">
-    <img src="peter-thiel.jpg" alt="Peter Thiel holding cash, on stage" style="width: 100%; height: auto;">
+    <img src="../../figures/peter-thiel.jpg" alt="Peter Thiel holding cash, on stage" style="width: 100%; height: auto;">
     <figcaption>Photograph: Getty Images</figcaption>
 </figure>
 <p class="byline">Apr 20th 2025 | LOS ANGELES</p>
@@ -520,7 +484,8 @@ document.write(`
 <p>Trae Stephens, a partner at Founders Fund and co-founder of Anduril, casts General Matter as the third in the trilogy, building energy technology to help America compete in the energy-hungry AI race against China: “We are getting absolutely lapped by China in building new nuclear capabilities.” He says Founders Fund is also looking into on-shoring other sensitive supply chains, such as extreme ultraviolet light lithography to create state-of-the art semiconductors.</p>
 <p>There are big hurdles ahead, though. The first is a chicken-and-egg problem. Unless there is a HALEU supply chain in place, it is hard to build advanced nuclear reactors that rely on the fuel. Yet until it is clear that the new reactors have a future, making HALEU is a highly speculative, capital-intensive bet. The DOE’s support is aimed at overcoming that dilemma. On April 9th it said it would provide a first batch of HALEU to some SMRs. But it cannot guarantee the long-term viability of the reactors, nor of a domestically produced uranium supply chain.</p>
 <p>The second is competition. The three other companies picked by the DOE to compete to supply HALEU are well-established. They include American subsidiaries of two European nuclear-fuel providers, Urenco, a consortium made up of the British, Dutch and German governments, and Orano, a mostly state-owned French firm. Their American counterpart is Centrus Energy, a listed firm that was once part of the government. In 2023 Centrus produced 20kg of HALEU, the first output in America in 70 years. General Matter hopes that its technology will make HALEU in bigger quantities at lower cost. Yet, as its rivals point out, it has not yet formally sought a licence from America’s Nuclear Regulatory Commission, which can take years to approve.</p>
-<footer>Margaret O’Mara, a historian of Silicon Valley at the University of Washington, notes the incongruity of libertarians like Mr Thiel harking back to a golden era of government intervention in the economy at the height of the cold war. She calls it the “Space Age, brought to you by Ayn Rand”. And yet she notes that Silicon Valley got its start building computers for atomic warheads. Then the anti-nuclear “peaceniks” took over in the 1960s, starting the drift away from national-security tech. If Mr Thiel has his way, it will come full circle. With luck, it will not end with more nuclear bombs.■</footer></section>
+<p>Margaret O’Mara, a historian of Silicon Valley at the University of Washington, notes the incongruity of libertarians like Mr Thiel harking back to a golden era of government intervention in the economy at the height of the cold war. She calls it the “Space Age, brought to you by Ayn Rand”. And yet she notes that Silicon Valley got its start building computers for atomic warheads. Then the anti-nuclear “peaceniks” took over in the 1960s, starting the drift away from national-security tech. If Mr Thiel has his way, it will come full circle. With luck, it will not end with more nuclear bombs.</p>
+<footer>■</footer></section>
 
     <script type="text/x-thebe-config">
     {
